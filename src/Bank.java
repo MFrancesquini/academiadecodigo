@@ -1,5 +1,4 @@
 public class Bank {
-    private double value;
     private double amount;
     
     public void saveMoney(double value){

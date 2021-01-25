@@ -1,12 +1,9 @@
 public class Pessoa {
     private String name;
-    //private double amount;
-    private double value;
     private Bank bank;
 
-    public Pessoa(String name, double value, Bank bank){
+    public Pessoa(String name, Bank bank){
         this.name = name;
-        this.value = value;
         this.bank = bank;
     }
     public String getName(){
